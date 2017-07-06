@@ -1,0 +1,136 @@
+/* line 5, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../../scss/flexbox.scss */
+html {
+  font-size: 10px;
+  color: #009966;
+}
+/* line 8, ../../scss/flexbox.scss */
+html ::-webkit-scrollbar {
+  width: 5px;
+}
+/* line 12, ../../scss/flexbox.scss */
+html ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #000;
+}
+/* line 18, ../../scss/flexbox.scss */
+html ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 255, 0, 0.5);
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
+
+/* line 24, ../../scss/flexbox.scss */
+a {
+  text-decoration: none;
+  color: #716F70;
+  background-color: #EFEFEF;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 30, ../../scss/flexbox.scss */
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #716F70;
+  background-color: #EFEFEF;
+}
+
+/* line 39, ../../scss/flexbox.scss */
+body {
+  margin: 0 15px;
+  font: 400 1.4rem/2rem -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+  background-color: #E9FBE9;
+}
+
+/* line 44, ../../scss/flexbox.scss */
+h2 {
+  margin: 10px auto;
+  font: 600 1.8rem/3rem -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+  text-align: center;
+}
+
+/* line 49, ../../scss/flexbox.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 52, ../../scss/flexbox.scss */
+p {
+  text-indent: 2.8rem;
+}
+
+/* line 55, ../../scss/flexbox.scss */
+.desc {
+  padding-left: 10px;
+  border-left: 5px solid #E0CB52;
+  background-color: #262422;
+}
